@@ -1,0 +1,65 @@
+{
+  "configuration": {
+    "command": "benchmark",
+    "input": "legacy_tables/processed_features_v9.csv",
+    "output": "validation/legacy_v9_diagnostic",
+    "allow_unverified": true,
+    "allow_synthetic": false,
+    "seed": 2026,
+    "models": [
+      "logreg"
+    ],
+    "inner_splits": 3,
+    "n_jobs": 1,
+    "feature_sets": [
+      "eeg",
+      "behavior",
+      "eeg_behavior"
+    ],
+    "pca_components": null,
+    "thresholds": [
+      0.5
+    ]
+  },
+  "run_status": "diagnostic_unverified",
+  "dataset_provenance": {
+    "status": "legacy_unverified",
+    "source": "processed_features_v9.csv",
+    "sha256": "7c0f77defdbb945dc89cb93d6da86da00e8234997af5d7f7345af862c3ec7fd6",
+    "warning": "Original trial alignment and feature-extraction provenance are unknown. Diagnostic use only.",
+    "has_prefitted_supervised_features": false
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.7.1",
+    "mne": "1.10.1",
+    "torch": "2.2.2",
+    "openai": null,
+    "catboost": null,
+    "xgboost": null
+  },
+  "source_sha256": {
+    "synthetic.py": "31c4e89c9547b0cfde4c9d6121a95ec88e7347bbeb894d2087dd5f21c53c5613",
+    "metrics.py": "810b7bd2a0931c249e7a0f134249b148bb2dea2323c049a0b663bbf450589402",
+    "neural.py": "72a1a0353e174a1e705af43719a419070a994e8c4240f4fd324ad4a34ea16dba",
+    "evaluation.py": "72fc4acc337ad0fef6f481e412ee5fd177cffb6b65b2b4b61196bca8a4f3c0a8",
+    "__init__.py": "81adafe94b1c7b0839a9305f22be1f2ebf663a630fd5479de2c44412afbfc3c3",
+    "llm.py": "068936ca85a30d34c92f25f9f5f21c28542ead1a766fefaafcbff0ca5add82f2",
+    "features.py": "daaff8f123e2c1e9fc780a51d091495c73dacd5f939a6547989af98c430b8bd0",
+    "spatial.py": "197806c7e8653695794a6e26ac349f7915022ef468ea57c79f3eca93e97bc6f4",
+    "cli.py": "2222cd0388ba8ee77a25dcbee4c154cf642bd94df20362ae482790fd1bc6bd9a",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "preparation.py": "f5cde6ebb826818aba83898f6db361655eea2121b0f0ff7f8548c647be6727c0",
+    "data.py": "ac004406b308fbb5929cdeaf204b259c55ebbf11efd5596ee005d77a1533b56c"
+  },
+  "artifacts_sha256": {
+    "predictions.csv": "2c91b0ec7ab6cc2e28abfe60dc5886bf47231900906e30b8dc69952e4fe921cd",
+    "selection.csv": "f93ed93b9c329b03a19381fda71b3044c20bcfcb093cd6953023db9d7c0fddf3",
+    "folds.csv": "d58966bab978cb54174870451e6c89366b7089908e2658cfe364cfc4581cddf4"
+  },
+  "trial_count": 4751,
+  "subject_count": 33,
+  "result_notes": {}
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+results/
+prepared/
+prepared_*/
+.screenshots/
+.DS_Store
+*.npy
+*.npz
+*.pkl
+*.h5
+*.pt
+*.pth
+.git_bak*/

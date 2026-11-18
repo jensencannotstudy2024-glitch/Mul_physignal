@@ -1,0 +1,80 @@
+﻿subjects=34 channels=126
+[1/34] sub-S200214 kept=71/143 scan 4s
+[2/34] sub-S200221 cache built in 61.3s
+[2/34] sub-S200221 kept=76/144 scan 77s
+[3/34] sub-S200225 cache built in 63.1s
+[3/34] sub-S200225 kept=113/144 scan 79s
+[4/34] sub-S200228 cache built in 58.8s
+[4/34] sub-S200228 kept=68/144 scan 72s
+[5/34] sub-S200302 cache built in 58.3s
+[5/34] sub-S200302 kept=74/144 scan 72s
+[6/34] sub-S200303 cache built in 56.4s
+[6/34] sub-S200303 kept=74/144 scan 70s
+[7/34] sub-S200306 cache built in 56.0s
+[7/34] sub-S200306 kept=92/143 scan 69s
+[8/34] sub-S200309 cache built in 55.5s
+[8/34] sub-S200309 kept=70/143 scan 69s
+[9/34] sub-S200310 cache built in 60.4s
+[9/34] sub-S200310 kept=80/143 scan 75s
+[10/34] sub-S200311 cache built in 56.4s
+[10/34] sub-S200311 kept=111/143 scan 71s
+[11/34] sub-S200313 cache built in 57.4s
+[11/34] sub-S200313 kept=83/143 scan 71s
+[12/34] sub-S201105 cache built in 60.3s
+[12/34] sub-S201105 kept=93/142 scan 75s
+[13/34] sub-S201118 cache built in 57.9s
+[13/34] sub-S201118 kept=66/142 scan 72s
+[14/34] sub-S201120 cache built in 58.2s
+[14/34] sub-S201120 kept=78/141 scan 73s
+[15/34] sub-S201126 cache built in 60.8s
+[15/34] sub-S201126 kept=79/142 scan 77s
+[16/34] sub-S201210 cache built in 61.5s
+[16/34] sub-S201210 kept=82/142 scan 78s
+[17/34] sub-S201222 cache built in 67.4s
+[17/34] sub-S201222 kept=63/141 scan 81s
+[18/34] sub-S201223 cache built in 72.0s
+[18/34] sub-S201223 kept=68/142 scan 89s
+[19/34] sub-S210118 cache built in 76.4s
+[19/34] sub-S210118 kept=69/141 scan 96s
+[20/34] sub-S210120 cache built in 76.8s
+[20/34] sub-S210120 kept=70/142 scan 96s
+[21/34] sub-S210127 cache built in 71.5s
+[21/34] sub-S210127 kept=84/141 scan 90s
+[22/34] sub-S210128 cache built in 68.9s
+[22/34] sub-S210128 kept=75/142 scan 85s
+[23/34] sub-S210202 cache built in 73.9s
+[23/34] sub-S210202 kept=48/141 scan 93s
+[24/34] sub-S210203 cache built in 73.2s
+[24/34] sub-S210203 kept=77/141 scan 91s
+[25/34] sub-S210204 cache built in 73.2s
+[25/34] sub-S210204 kept=59/141 scan 89s
+[26/34] sub-S210208 cache built in 5.9s
+[26/34] sub-S210208 kept=7/14 scan 7s
+[27/34] sub-S210209 cache built in 68.0s
+[27/34] sub-S210209 kept=81/141 scan 83s
+[28/34] sub-S210215 cache built in 70.4s
+[28/34] sub-S210215 kept=103/141 scan 90s
+[29/34] sub-S210217 cache built in 70.3s
+[29/34] sub-S210217 kept=57/141 scan 85s
+[30/34] sub-S210224 cache built in 66.3s
+[30/34] sub-S210224 kept=75/141 scan 84s
+[31/34] sub-S210225 cache built in 72.8s
+[31/34] sub-S210225 kept=59/141 scan 91s
+[32/34] sub-S210315 cache built in 69.9s
+[32/34] sub-S210315 kept=93/141 scan 87s
+[33/34] sub-S210316 cache built in 93.2s
+[33/34] sub-S210316 kept=68/141 scan 114s
+[34/34] sub-S210317 cache built in 66.7s
+[34/34] sub-S210317 kept=81/141 scan 85s
+ k  offset  median_reliability  mean_reliability  n_subjects  n_trials
+ 2     6.0            0.042516          0.050274          33      75.0
+ 2     5.0            0.038148          0.048901          33      75.0
+ 5     4.0            0.035637          0.022606          33      75.0
+ 9     1.0            0.028305          0.014838          15       8.0
+ 5     1.0            0.028032          0.028284          33      75.0
+ 4     6.0            0.027085          0.032163          33      75.0
+ 4     5.0            0.025484          0.022482          33      75.0
+ 4     4.0            0.025020          0.013217          33      75.0
+ 5     2.0            0.023567          0.022443          33      75.0
+ 5     3.0            0.022512          0.024015          33      75.0
+done

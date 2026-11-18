@@ -1,0 +1,24 @@
+{
+  "trials": 2640,
+  "subjects": 44,
+  "class_counts": {
+    "1": 1320,
+    "0": 1320
+  },
+  "missing_values": 0,
+  "infinite_numeric_values": 0,
+  "constant_columns": [],
+  "feature_counts": {
+    "eeg": 128,
+    "behavior": 0,
+    "physiology": 7
+  },
+  "excluded_feature_columns": [],
+  "provenance": {
+    "status": "legacy_unverified",
+    "source": "features_matrix.csv",
+    "sha256": "fe1663d1e0b812c79d753746768e045c2108befbedd1a68698993f8d3b673bf1",
+    "warning": "Original trial alignment and feature-extraction provenance are unknown. Diagnostic use only.",
+    "has_prefitted_supervised_features": false
+  }
+}

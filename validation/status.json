@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-21",
+  "regression_tests": {
+    "status": "passed",
+    "count": 97,
+    "log": "checks.txt"
+  },
+  "independent_review": {
+    "reviewers": 3,
+    "passes": "implementation, cross-review, integration review"
+  },
+  "static_checks": {
+    "python_files_parsed": 35,
+    "embedded_credential_patterns": 0,
+    "Chinese_characters_in_code": 0,
+    "blanket_warning_suppression": 0
+  },
+  "original_script_entry_points": {
+    "01_epoch_cut (1).py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "03_phys_feature.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "check.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "generate_mock_data.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_contrastive_alignment.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_deep_hybrid_fusion.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_deep_hybrid_fusion_v9.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_knowledge_distillation.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_llm_cot_prediction.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_llm_direct_prediction.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_multimodal_fusion.py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_pipeline_v9 (1).py": {
+      "exit_code": 0,
+      "help_ok": true
+    },
+    "run_xdawn_csp (1).py": {
+      "exit_code": 0,
+      "help_ok": true
+    }
+  },
+  "legacy_v9_diagnostic": {
+    "status": "diagnostic_unverified",
+    "trials": 4751,
+    "participants": 33,
+    "models": [
+      "dummy",
+      "logreg"
+    ],
+    "feature_sets": [
+      "eeg",
+      "behavior",
+      "eeg_behavior"
+    ],
+    "full_attempted_coverage": true,
+    "scientific_benchmark": false,
+    "path": "legacy_v9_diagnostic/",
+    "reproduced_binary_predictions_exactly": true,
+    "maximum_probability_difference_between_runs": 0.00011694788988508842,
+    "source_snapshot_matches_delivered_modules": true
+  },
+  "raw_dataset_end_to_end": {
+    "status": "not_run",
+    "reason": "Raw recordings and verified per-trial onset mapping were not supplied."
+  },
+  "optional_boosters": {
+    "catboost": "dependency-error path tested; training not run",
+    "xgboost": "dependency-error path tested; training not run"
+  },
+  "live_llm_calls": 0,
+  "llm_validation": "mocked clients; success, failure, schema, retry, provider options, and coverage",
+  "nonfatal_test_environment_messages": "MNE/matplotlib emitted font-cache messages in the restricted environment; the tests completed successfully.",
+  "state_of_the_art_established": false,
+  "sota_requirement": "Matched raw-data benchmark with verified timing/labels and a frozen participant-held-out protocol against relevant published methods.",
+  "final_audit": "No unresolved implementation defect found in the reviewed paths; raw scientific validation remains unavailable."
+}

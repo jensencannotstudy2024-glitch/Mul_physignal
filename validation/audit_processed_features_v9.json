@@ -1,0 +1,38 @@
+{
+  "trials": 4751,
+  "subjects": 33,
+  "class_counts": {
+    "0": 2433,
+    "1": 2318
+  },
+  "missing_values": 0,
+  "infinite_numeric_values": 0,
+  "constant_columns": [
+    "Beh_pred_correct"
+  ],
+  "feature_counts": {
+    "eeg": 40,
+    "behavior": 14,
+    "physiology": 0
+  },
+  "excluded_feature_columns": [
+    "Beh_Trial_Balance",
+    "Beh_Trial_Probability",
+    "Beh_Trial_Stake",
+    "Beh_comp_major",
+    "Beh_fact_hard",
+    "Beh_is_self",
+    "Beh_pred_correct",
+    "Beh_pred_left",
+    "Beh_self_irrel_agree",
+    "Beh_stake_x_prob",
+    "Beh_trial_order"
+  ],
+  "provenance": {
+    "status": "legacy_unverified",
+    "source": "processed_features_v9.csv",
+    "sha256": "7c0f77defdbb945dc89cb93d6da86da00e8234997af5d7f7345af862c3ec7fd6",
+    "warning": "Original trial alignment and feature-extraction provenance are unknown. Diagnostic use only.",
+    "has_prefitted_supervised_features": false
+  }
+}
